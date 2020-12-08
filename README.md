@@ -15,7 +15,7 @@ Our optimized parameters aim to precisely capture the role of Magnesium in all-a
 ## Quick start guide
 ******************
 Our parameters are optimized for the TIP3P water model.
-The parameters are optimized for use with parmBSC0chiOL3 RNA force fields (e.g. amber14sb.ff).
+The parameters are optimized for use with Mamatkulov-Schwierz (https://github.com/bio-phys/Force-fields-for-metal-cations) and parmBSC0chiOL3 RNA force fields (e.g. amber14sb.ff).
 All parameter sets here are to be used with the Lorentz-Berthelot combination rule (otherwise modifications are required).
 Note that we have chosen unique names for the optimized parameters to avoid errors in overwriting atom names:
 * mMg - MG with water exchange as in experiment
