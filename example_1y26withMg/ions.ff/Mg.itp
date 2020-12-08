@@ -1,0 +1,22 @@
+[ moleculetype ]
+; Name            nrexcl
+mMg     3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       mMg     1       mMg     mMg     1       2       24.305
+
+[ moleculetype ]
+; Name            nrexcl
+nMg     3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       nMg     1       nMg     nMg     1       2       24.305
+
+[ moleculetype ]
+; Name            nrexcl
+CXY     3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       CXY     1       CXY     CXY     1       -1      35.45
+
+

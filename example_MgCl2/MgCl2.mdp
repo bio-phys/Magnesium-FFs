@@ -1,0 +1,71 @@
+; Run control
+integrator               = md       ; velocity verlet
+tinit                    = 0
+
+; Have to use such small values to preserve lincs 
+dt                       = 0.002
+nsteps                   = 250000000   ; 1ns
+
+; COM motion removal
+; These options remove COM motion of the system
+nstcomm                  = 10
+comm-mode    		 = Linear
+comm-grps       	 = system
+
+; Output control
+;nstxout                  = 1000
+nstvout                  = 1000
+nstfout                  = 1000
+nstlog                   = 1000
+nstenergy                = 1000
+nstxtcout                = 100
+
+; Neighborsearching and short-range nonbonded interactions
+nstlist                  = 10
+ns_type                  = grid
+pbc                      = xyz
+rlist                    = 1.2
+periodic_molecules       = no
+
+; Electrostatics
+coulombtype              = PME
+rcoulomb                 = 1.2
+
+; van der Waals
+vdw-type                 = cut-off
+rvdw                     = 1.2
+
+; Apply long range dispersion corrections for Energy and Pressure
+DispCorr                  = EnerPres
+
+; Spacing for the PME/PPPM FFT grid
+fourierspacing           = 0.12
+
+; EWALD/PME/PPPM parameters
+pme_order                = 4
+ewald_rtol               = 1e-05
+
+; Pressure coupling is on for NPT
+pcoupl                   = Parrinello-Rahman
+pcoupltype               = isotropic
+tau_p                    = 5.0
+compressibility          = 4.5e-05
+ref_p                    = 1.0
+
+
+; Temperature coupling
+tcoupl                   = v-rescale
+tc_grps			 = system
+tau_t                    = 0.1 
+ref_t                    = 300 
+
+; Do not generate velocities
+gen_vel                  = no
+
+; options for bonds
+constraints              = all-bonds
+constraint-algorithm     = lincs
+lincs_iter           = 1         ; accuracy of LINCS
+lincs_order          = 4 
+
+

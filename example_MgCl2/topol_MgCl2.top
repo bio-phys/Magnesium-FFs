@@ -1,0 +1,24 @@
+; Include forcefield parameters
+#include "./amber14sb.ff/forcefield.itp"
+
+; Include optimized forcefield parameters for Magnesium and water
+#include "./ions.ff/ff_Mg.itp"
+#include "./ions.ff/Mg.itp"
+
+; Include position restraints for each ion if needed
+#ifdef POSRE_IONS
+#include "posre-ions.itp"
+#endif
+
+; Include water topology
+#include "./amber14sb.ff/tip3p.itp"
+
+[ system ]
+; Name
+MgCl2 in water using microMg
+
+[ molecules ]
+; Compound        #mols
+SOL             2105
+mMg               20
+CXY               40
