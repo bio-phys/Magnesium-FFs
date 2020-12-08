@@ -18,14 +18,14 @@ Our parameters are optimized for the TIP3P water model.
 The parameters are optimized for use with parmBSC0chiOL3 RNA force fields (e.g. amber14sb.ff).
 All parameter sets here are to be used with the Lorentz-Berthelot combination rule (otherwise modifications are required).
 Note that we have chosen unique names for the optimized parameters to avoid errors in overwriting atom names:
-* mMg - MG (water exchange as in experiment)
-* nMg - MG (accellerated water exchange)
+* mMg - MG with water exchange as in experiment
+* nMg - MG with accellerated water exchange
 
 To get started: Replace the standard ion names in your .gro file by our unique names.
 Modify the given topology file according to your system. The topology file includes the optimized force field parameters via ffMg.itp and Mg.itp
 
 
-## Example: 0.5 molar MgCl2
+## Example: 0.5 molar MgCl2 using microMg
 ******************
 Folder contains all files for an MD simulation of 0.5 molar MgCl2 solution with GROMACS.
 Initial coordinates are given in out.gro.
