@@ -29,14 +29,18 @@ Modify the given topology file according to your system. The topology file inclu
 ******************
 Folder example_MgCl2 contains all files for an MD simulation of 0.5 molar MgCl2 solution with GROMACS.
 Initial coordinates are given in MgCl2.gro
+
 To create a .tpr file for energy minimization type: gmx grompp -f MgCl2.mdp -c MgCl2.gro -p topol_MgCl2.top -maxwarn 27
+
 (maxwarn 27 is required as in the parameter file all scaled interactions towards all RNA atomtypes are explicitly listed, this is of cause not mandatory if no RNA is simulated)
 
 ## Example 2: add A-riboswitch with nanoMg
 ******************
 Folder example_1y26withMg contains all files for an MD simulation of the add A-riboswitch (PDB ID:1y26) with GROMACS.
 Initial coordinates are given in 1y26withMg.gro
+
 To create a .tpr file for energy minimization type: gmx grompp -f 1y26withMg.mdp -c 1y26withMg.gro -p topol_1y26withMg.top -maxwarn 27
+
 (maxwarn 27 is required as in the parameter file all scaled interactions towards all RNA atomtypes are explicitly listed)
 
 ## Citation
