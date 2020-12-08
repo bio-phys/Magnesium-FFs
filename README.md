@@ -39,7 +39,7 @@ To create a .tpr file for energy minimization type: gmx grompp -f MgCl2.mdp -c M
 Folder example_1y26withMg contains all files for an MD simulation of the add A-riboswitch (PDB ID:1y26) with GROMACS.
 Initial coordinates are given in 1y26withMg.gro
 
-To create a .tpr file for energy minimization type: gmx grompp -f 1y26withMg.mdp -c 1y26withMg.gro -p topol_1y26withMg.top -maxwarn 27
+To create a .tpr file for energy minimization type: gmx grompp -f 1y26withMg.mdp -c 1y26withMg.gro -p topol_1y26withMg.top -n index.ndx -maxwarn 27
 
 (maxwarn 27 is required as in the parameter file all scaled interactions towards all RNA atomtypes are explicitly listed)
 
