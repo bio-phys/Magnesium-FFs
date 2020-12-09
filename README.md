@@ -4,7 +4,7 @@
 We have developed two sets of force field parameters for Magnesium Mg2+, `microMg` and `nanoMg`, for use in combination with the TIP3P water model.
 Both optimized force fields simultaneously reproduce thermodynamic and structural properties of aqueous solutions (hydration free energy, radius of the first hydration shell, and coordination number of the first hydration shell). 
 
-The parameter set microMg furthermore reproduces the experimental water exchange rate on the microsecond timescale, while nanoMg yields water exchange on the nanosecond timescale. 
+The parameter set `microMg` furthermore reproduces the experimental water exchange rate on the microsecond timescale, while `nanoMg` yields water exchange on the nanosecond timescale. 
 
 Upon fine tuning of the Lorentz-Berthelot combination rules, additional thermodynamic and structural properties are reproduced (activity coefficient derivative, binding affinity, and distance towards the binding sites) for the interaction towards Chloride and RNA. 
 
