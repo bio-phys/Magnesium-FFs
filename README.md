@@ -48,7 +48,7 @@ gmx grompp -f 1y26withMg.mdp -c 1y26withMg.gro -p topol_1y26withMg.top -n index.
 
 ## Citation
 If you use our optimized parameters for Magnesium please refer to:
-K. K. Grotz, S. Cruz-Leon, N. Schwierz (not yet published, tba)
+K. K. Grotz, S. Cruz-Leon, N. Schwierz (JCTC, 2021, https://pubs.acs.org/doi/10.1021/acs.jctc.0c01281)
 
 
 Implementation has been tested by Kara K. Grotz.
