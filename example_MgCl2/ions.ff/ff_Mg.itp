@@ -3,8 +3,8 @@
 ; * Title of publication: "Systematic Optimization of Mg2+ Force Fields for Biomolecular	  *
 ; * Simulations with Accurate Solvation, Ion-pairing, and Water Exchange Properties"	    		       	       	  	  *
 ; * Authors: Kara K. Grotz and Sergio Cruz-Leon and Nadine Schwierz						  *		
-; * For implementation please cite: tba		  *
-; * doi: tba  	      	 	  	       	      			  *
+; * For implementation please cite: J. Chem. Theory Comput. 2021, 17, 4, 2530–2540	  *
+; * doi: 10.1021/acs.jctc.0c01281	      	 	  	       	      			  *
 ; *
 ; * Note 1: This force field for Magnesium was optimized with the TIP3P water model		  *
 ; * Note 2: Lorentz-Berthelot combination rules required	   	    	  			  *
