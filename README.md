@@ -2,6 +2,8 @@
 
 [Link](https://github.com/bio-phys/optimizedMgFFs) to parameters in SPC/E, TIP3P-fb, TIP4P/2005, TIP4P-Ew, and TIP4P-D.
 
+[Link](https://github.com/bio-phys/MgFF_OPC) to parameters in OPC.
+
 ## Introduction
 We have developed two sets of force field parameters for Magnesium Mg2+, `microMg` and `nanoMg`, for use in combination with the TIP3P water model.
 Both optimized force fields simultaneously reproduce thermodynamic and structural properties of aqueous solutions (hydration free energy, radius of the first hydration shell, and coordination number of the first hydration shell). 
